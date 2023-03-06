@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      /* Hides arrows from input
+      Works for Chrome, Safari, Edge, Opera */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h2>Metric/Imperial Unit Conversion</h2>
+      <input type="number" id="input-el" />
+      <button id="button-el">Convert</button>
+    </div>
+
+    <div id="groups">
+      <div class="group">
+        <h3>Length (Meter/Feet)</h3>
+        <p id="length">1 meter = 3.281 feet | 1 foot = 0.305 meters</p>
+      </div>
+      <div class="group">
+        <h3>Volume (Litres/Gallons)</h3>
+        <p id="volume">1 liter = 0.264 gallon | 1 gallon = 3.785 liters</p>
+      </div>
+      <div class="group">
+        <h3>Mass (Kilograms/Pounds)</h3>
+        <p id="mass">1 kilogram = 2.204 pounds | 1 pound = 0.453 kilograms</p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
