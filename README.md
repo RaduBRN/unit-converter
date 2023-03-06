@@ -1,3 +1,5 @@
+![screenshot of app](https://i.imgur.com/Mrty2SE.png)
+
 # Unit Converter
 
 This converter was created using HTML, CSS, and JavaScript to convert between metric and imperial units of length, volume, and mass.
